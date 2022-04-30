@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>677BCAF2-4EBA-4D9C-B9A8-F4BA702ADB5E</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Tringconnect_home_on_Action" transform="translate(-104.000000, -3406.000000)">
+            <g id="bottom-nav" transform="translate(0.000000, 3381.000000)">
+                <g id="ic_calendar_filled" transform="translate(104.000000, 25.000000)">
+                    <rect id="dummy" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M2,4.34042553 L2,20.3404255 C2,21.444995 2.8954305,22.3404255 4,22.3404255 L20,22.3404255 C21.1045695,22.3404255 22,21.444995 22,20.3404255 L22,4.34042553 C22,3.23585603 21.1045695,2.34042553 20,2.34042553 L4,2.34042553 C2.8954305,2.34042553 2,3.23585603 2,4.34042553 Z" id="Path-2" stroke="#FFFFFF" stroke-width="2"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="6.28571429" y="2.22932783e-13" width="1.9047619" height="4.68085106" rx="0.952380952"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="15.8095238" y="2.22932783e-13" width="1.9047619" height="4.68085106" rx="0.952380952"></rect>
+                    <path d="M22,7 L22,22 L2,22 L2,7 L22,7 Z M17.6666667,14.9787234 L15.8571429,14.9787234 C15.3048581,14.9787234 14.8571429,15.4264387 14.8571429,15.9787234 L14.8571429,15.9787234 L14.8571429,17.7234043 C14.8571429,18.275689 15.3048581,18.7234043 15.8571429,18.7234043 L15.8571429,18.7234043 L17.6666667,18.7234043 C18.2189514,18.7234043 18.6666667,18.275689 18.6666667,17.7234043 L18.6666667,17.7234043 L18.6666667,15.9787234 C18.6666667,15.4264387 18.2189514,14.9787234 17.6666667,14.9787234 L17.6666667,14.9787234 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <line x1="2" y1="7.4893617" x2="22" y2="7.4893617" id="Path-3" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="menu" fill="#FFFFFF">
+        <rect id="Rectangle" x="0" y="26" width="24" height="2" rx="0.95"></rect>\
+    </g>
+</svg>

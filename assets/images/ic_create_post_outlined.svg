@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>66F81450-11C5-432E-9798-F033176CF903</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Tringconnect_home_updated" transform="translate(-183.000000, -3406.000000)">
+            <g id="bottom-nav" transform="translate(0.000000, 3381.000000)">
+                <g id="ic_create_post" transform="translate(183.000000, 25.000000)">
+                    <rect id="dummy" x="0" y="0" width="24" height="24"></rect>
+                    <g id="create_post" transform="translate(1.000000, 1.000000)">
+                        <path d="M0,2 L0,20 C1.3527075e-16,21.1045695 0.8954305,22 2,22 L20,22 C21.1045695,22 22,21.1045695 22,20 L22,2 C22,0.8954305 21.1045695,-2.02906125e-16 20,0 L2,0 C0.8954305,2.02906125e-16 -1.3527075e-16,0.8954305 0,2 Z" id="Path-2" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M11,6 C11.5522847,6 12,6.44771525 12,7 L12,9.999 L15,10 C15.5522847,10 16,10.4477153 16,11 C16,11.5522847 15.5522847,12 15,12 L12,11.999 L12,15 C12,15.5522847 11.5522847,16 11,16 C10.4477153,16 10,15.5522847 10,15 L10,11.999 L7,12 C6.44771525,12 6,11.5522847 6,11 C6,10.4477153 6.44771525,10 7,10 L10,9.999 L10,7 C10,6.44771525 10.4477153,6 11,6 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

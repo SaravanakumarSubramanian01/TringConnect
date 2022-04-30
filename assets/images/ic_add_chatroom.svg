@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E6BF31A0-BD55-4D38-95E8-78681535A016</title>
+    <defs>
+        <path d="M30,60 C46.5685425,60 60,46.5685425 60,30 C60,13.4314575 46.5685425,0 30,0 C13.4314575,0 0,13.4314575 0,30 C0,46.5685425 13.4314575,60 30,60 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" >
+        <g id="01_Tringconnect_home_updated" transform="translate(-24.000000, -122.000000)" >
+            <g id="Events" transform="translate(0.000000, 98.000000)">
+                <g id="ic_plus_with_circle" transform="translate(24.000000, 24.000000)" >
+                    <use  width="80" height="80" id="Oval" stroke="#979797" mask="url(#mask-2)" stroke-width="2.26865672" stroke-dasharray="6.805970339707924,4.537313219527123" xlink:href="#path-1"></use>
+                    <path  d="M38.1666667,28.8333333 L31.1666667,28.8333333 L31.1666667,21.8333333 C31.1666667,21.1890011 30.6443322,20.6666667 30,20.6666667 C29.3556678,20.6666667 28.8333333,21.1890011 28.8333333,21.8333333 L28.8333333,28.8333333 L21.8333333,28.8333333 C21.1890011,28.8333333 20.6666667,29.3556678 20.6666667,30 C20.6666667,30.6443322 21.1890011,31.1666667 21.8333333,31.1666667 L28.8333333,31.1666667 L28.8333333,38.1666667 C28.8333333,38.8109989 29.3556678,39.3333333 30,39.3333333 C30.6443322,39.3333333 31.1666667,38.8109989 31.1666667,38.1666667 L31.1666667,31.1666667 L38.1666667,31.1666667 C38.8109989,31.1666667 39.3333333,30.6443322 39.3333333,30 C39.3333333,29.3556678 38.8109989,28.8333333 38.1666667,28.8333333 Z" id="Path" fill="#939598" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

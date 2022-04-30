@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BBA79DA7-C420-4706-B574-DBB7C14AD63A</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Tringconnect_home_on_Action" transform="translate(-341.000000, -3406.000000)">
+            <g id="bottom-nav" transform="translate(0.000000, 3381.000000)">
+                <g id="ic_chat_selected" transform="translate(341.000000, 25.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M12,1 C18.0751322,1 23,5.82983394 23,11.787736 C23,17.7456381 18.0751322,22.5754721 12,22.5754721 C10.4660387,22.5754721 9.00541306,22.2675438 7.67888717,21.7112789 L4.50581385,22.891165 C4.3331385,22.9554217 4.14606765,22.9707247 3.96524504,22.9353851 C3.46193141,22.8370185 3.12115418,22.377074 3.15985574,21.8778899 L3.17562193,21.7621437 L3.73276823,18.9041576 C2.03153254,17.0048601 1,14.5144372 1,11.787736 C1,5.82983394 5.92486775,1 12,1 Z M19,9 L13.2222222,11.5714286 L11.0555556,9 L6,15 L11.0555556,12.4285714 L13.2222222,15 L19,9 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="menu" fill="#FFFFFF">
+        <rect id="Rectangle" x="0" y="26" width="24" height="2" rx="0.95"></rect>\
+    </g>
+</svg>

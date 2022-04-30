@@ -2,6 +2,7 @@
     package="com.tringapps.tringconnect.tringconnect">
    <application
         android:label="tringconnect"
+       android:allowBackup="false"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3D5CCECF-DC3C-4C7F-8811-209E7868FD7A</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Tringconnect_home_on_Action" transform="translate(-262.000000, -3406.000000)">
+            <g id="bottom-nav" transform="translate(0.000000, 3381.000000)">
+                <g id="ic_folder-view_selected" transform="translate(262.000000, 25.000000)">
+                    <rect id="dummy" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M1,20 L1,4 C1,2.8954305 1.8954305,2 3,2 L9.41490871,2 C9.94336749,2 10.4503476,2.20915243 10.8250875,2.58176309 L13.1749125,4.91823691 C13.5496524,5.29084757 14.0566325,5.5 14.5850913,5.5 L21,5.5 C22.1045695,5.5 23,6.3954305 23,7.5 L23,20 C23,21.1045695 22.1045695,22 21,22 L3,22 C1.8954305,22 1,21.1045695 1,20 Z" id="Path-2" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="menu" fill="#FFFFFF">
+        <rect id="Rectangle" x="0" y="26" width="24" height="2" rx="0.95"></rect>\
+    </g>
+</svg>

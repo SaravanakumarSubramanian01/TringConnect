@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F2E34CB9-8240-4FF6-B841-09E925F020E4</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Tringconnect_home_on_Action" transform="translate(-183.000000, -3406.000000)">
+            <g id="bottom-nav" transform="translate(0.000000, 3381.000000)">
+                <g id="ic_create_post_filled" transform="translate(183.000000, 25.000000)">
+                    <rect id="dummy" x="0" y="0" width="24" height="24"></rect>
+                    <g id="create_post" transform="translate(1.000000, 1.000000)" fill="#FFFFFF">
+                        <path d="M20,0 C21.1045695,-2.02906125e-16 22,0.8954305 22,2 L22,2 L22,20 C22,21.1045695 21.1045695,22 20,22 L20,22 L2,22 C0.8954305,22 1.3527075e-16,21.1045695 0,20 L0,20 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L2,0 Z M11,6 C10.4477153,6 10,6.44771525 10,7 L10,7 L10,9.999 L7,10 C6.44771525,10 6,10.4477153 6,11 C6,11.5522847 6.44771525,12 7,12 L7,12 L10,11.999 L10,15 C10,15.5522847 10.4477153,16 11,16 C11.5522847,16 12,15.5522847 12,15 L12,15 L12,11.999 L15,12 C15.5522847,12 16,11.5522847 16,11 C16,10.4477153 15.5522847,10 15,10 L15,10 L12,9.999 L12,7 C12,6.44771525 11.5522847,6 11,6 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="menu" fill="#FFFFFF">
+        <rect id="Rectangle" x="0" y="26" width="24" height="2" rx="0.95"></rect>\
+    </g>
+</svg>
