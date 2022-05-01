@@ -1,5 +1,6 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/widgets/dashboard_header.dart';
 import 'package:tringconnect/widgets/feed_item.dart';
 import '../widgets/course_feed_item.dart';
@@ -12,9 +13,8 @@ class Dashboard extends StatefulWidget{
   State<Dashboard> createState() => DashboardState();
 }
 
-class DashboardState extends State<Dashboard>{
+class DashboardState extends State<Dashboard> {
   late DatabaseReference feedRef;
-
   Future<List<dynamic>> getApiData() async{
     List<dynamic> feeds = [];
     feedRef = FirebaseDatabase.instance.ref();
@@ -31,6 +31,11 @@ class DashboardState extends State<Dashboard>{
   }
 
   @override
+  void dispose() {
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return  Column(
       children: [
@@ -42,8 +47,8 @@ class DashboardState extends State<Dashboard>{
               return const Text('No feeds found.');
             }
             else if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Center(
-                child: Text('Loading ...'),
+              return  Center(
+                child: Container()
               );
             }
             //return Container();
