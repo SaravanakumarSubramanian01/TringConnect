@@ -1,18 +1,14 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:tringconnect/controller/Calendar.dart';
-import 'package:tringconnect/controller/Chat.dart';
-import 'package:tringconnect/controller/CreatePost.dart';
-import 'package:tringconnect/controller/Dashboard.dart';
-import 'package:tringconnect/controller/FolderView.dart';
+import 'package:tringconnect/controller/calendar.dart';
+import 'package:tringconnect/controller/chat.dart';
+import 'package:tringconnect/controller/create_post.dart';
+import 'package:tringconnect/controller/dashboard.dart';
+import 'package:tringconnect/controller/folder_view.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/utils/images.dart';
-import 'package:tringconnect/widgets/NotificationButton.dart';
-import 'package:tringconnect/widgets/StatefulButton.dart';
-
-import '../utils/Service.dart';
+import 'package:tringconnect/widgets/notification_button.dart';
+import 'package:tringconnect/widgets/custom_icon_button.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key, required String title}) : super(key: key);

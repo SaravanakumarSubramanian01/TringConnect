@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/utils/images.dart';
-import 'package:tringconnect/widgets/CustomButton.dart';
-import 'package:tringconnect/widgets/StatefulButton.dart';
+import 'package:tringconnect/widgets/custom_button.dart';
+import 'package:tringconnect/widgets/custom_icon_button.dart';
 
 class CoursesCarousel extends StatelessWidget{
   final List<dynamic> mediaData;

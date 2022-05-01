@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:tringconnect/utils/app-constants.dart';
+import 'package:tringconnect/utils/app_constants.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/utils/images.dart';
 

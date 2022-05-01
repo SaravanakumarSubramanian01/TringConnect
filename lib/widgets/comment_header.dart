@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-
-import '../utils/app-constants.dart';
+import '../utils/app_constants.dart';
 
 class CommentHeader extends StatelessWidget {
   const CommentHeader({Key? key}) : super(key: key);

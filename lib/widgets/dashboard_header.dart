@@ -1,8 +1,8 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-import 'package:tringconnect/widgets/AddBubble.dart';
-import 'package:tringconnect/widgets/StoryBubble.dart';
+import 'package:tringconnect/widgets/add_bubble.dart';
+import 'package:tringconnect/widgets/story_bubble.dart';
 
 class DashboardHeader extends StatelessWidget{
   const DashboardHeader({Key? key}) : super(key: key);

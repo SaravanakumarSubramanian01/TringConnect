@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tringconnect/utils/app-constants.dart';
+import 'package:tringconnect/utils/app_constants.dart';
 import 'package:tringconnect/utils/colors.dart';
 
 class CommentsList extends StatefulWidget{

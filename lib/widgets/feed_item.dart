@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-import 'package:tringconnect/widgets/FeedBody.dart';
-import 'package:tringconnect/widgets/FeedFooter.dart';
-import 'package:tringconnect/widgets/FeedHeader.dart';
+import 'package:tringconnect/widgets/feed_body.dart';
+import 'package:tringconnect/widgets/feed_footer.dart';
+import 'package:tringconnect/widgets/feed_header.dart';
 
-import '../utils/app-constants.dart';
+import '../utils/app_constants.dart';
 
 class FeedItem extends StatelessWidget{
   final Map data;
@@ -23,7 +23,7 @@ class FeedItem extends StatelessWidget{
             GestureDetector(
               onTap: (){
                 if(data['media'].length > 0 && data['type'] == 'user_feed'){
-                  Navigator.of(context).pushNamed( RoutePaths.MEDIA_VIEWER, arguments: data['media']);
+                  Navigator.of(context).pushNamed( RoutePaths.mediaViewer, arguments: data['media']);
                 }
 
               },

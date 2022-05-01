@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/utils/images.dart';
 
-import 'CustomButton.dart';
+import 'custom_button.dart';
 
 class InteractiveBanner extends StatelessWidget{
   final Map mediaData;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tringconnect/utils/app-constants.dart';
-import 'package:tringconnect/utils/app-router.dart';
+import 'package:tringconnect/utils/app_constants.dart';
+import 'package:tringconnect/utils/app_router.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -23,7 +23,7 @@ class TringConnect extends StatelessWidget {
       theme: ThemeData(
         primaryColor: CustomColor.primaryGreen,
       ),
-      initialRoute:RoutePaths.HOME,
+      initialRoute:RoutePaths.home,
       onGenerateRoute: AppRouter.generateRoute,
       debugShowCheckedModeBanner: false,
     );

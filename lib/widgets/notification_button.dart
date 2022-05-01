@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/images.dart';
-import 'package:tringconnect/widgets/StatefulButton.dart';
+import 'package:tringconnect/widgets/custom_icon_button.dart';
 
 import '../utils/colors.dart';
 
@@ -69,7 +69,7 @@ class NotificationButtonState extends State<NotificationButton>{
                             )
                         )
                     )
-                );;
+                );
               }
             })
 

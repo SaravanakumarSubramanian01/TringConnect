@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-import 'package:tringconnect/widgets/CoursesCarousel.dart';
-import 'package:tringconnect/widgets/FeedFooter.dart';
+import 'package:tringconnect/widgets/courses_carousel.dart';
+import 'package:tringconnect/widgets/feed_footer.dart';
 
 import '../utils/images.dart';
-import 'StatefulButton.dart';
+import 'custom_icon_button.dart';
 
 class CourseFeedItem extends StatelessWidget{
   final Map feedData;

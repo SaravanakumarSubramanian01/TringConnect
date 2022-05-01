@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-import 'package:tringconnect/widgets/CommentHeader.dart';
-import 'package:tringconnect/widgets/CommentView.dart';
+import 'package:tringconnect/widgets/comment_view.dart';
 
 class FooterComment extends StatelessWidget{
   final void Function(bool state,String comment) callback;

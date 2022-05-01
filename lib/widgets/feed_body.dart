@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-import 'package:tringconnect/widgets/DynamicMediaRenderer.dart';
-import 'package:tringconnect/widgets/InteractiveBanner.dart';
+import 'package:tringconnect/widgets/dynamic_media_renderer.dart';
+import 'package:tringconnect/widgets/interactive_banner.dart';
 
-import 'TextToggle.dart';
+import 'text_toggle.dart';
 
 class FeedBody extends StatefulWidget{
   final String postDescription;

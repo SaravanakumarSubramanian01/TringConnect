@@ -1,11 +1,8 @@
-
-import 'dart:convert';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:tringconnect/widgets/DashboardHeader.dart';
-import 'package:tringconnect/widgets/FeedItem.dart';
-
-import '../widgets/CourseFeedItem.dart';
+import 'package:tringconnect/widgets/dashboard_header.dart';
+import 'package:tringconnect/widgets/feed_item.dart';
+import '../widgets/course_feed_item.dart';
 
 
 class Dashboard extends StatefulWidget{

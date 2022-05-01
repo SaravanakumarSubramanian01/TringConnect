@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:tringconnect/controller/HomeScreen.dart';
-import 'package:tringconnect/controller/MediaViewer.dart';
+import 'package:tringconnect/controller/home_screen.dart';
+import 'package:tringconnect/controller/media_viewer.dart';
 
-import 'app-constants.dart';
+import 'app_constants.dart';
 
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case RoutePaths.HOME:
+      case RoutePaths.home:
         return MaterialPageRoute(builder: (_) => const HomeScreen(title: "Home"),settings: settings);
-      case RoutePaths.MEDIA_VIEWER:
+      case RoutePaths.mediaViewer:
         return mediaViewRoute(settings);
       default:
         return MaterialPageRoute(

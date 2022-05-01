@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
-import 'package:tringconnect/widgets/CommentButton.dart';
-import 'package:tringconnect/widgets/CommentsList.dart';
-import 'package:tringconnect/widgets/FooterComment.dart';
-import 'package:tringconnect/widgets/LikeButton.dart';
+import 'package:tringconnect/widgets/comment_button.dart';
+import 'package:tringconnect/widgets/comments_list.dart';
+import 'package:tringconnect/widgets/footer_comment.dart';
+import 'package:tringconnect/widgets/like_button.dart';
 
-import 'CommentHeader.dart';
+import 'comment_header.dart';
 
 class FeedFooter extends StatefulWidget {
   final String createdOn;

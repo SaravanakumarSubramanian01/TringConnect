@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/images.dart';
-import 'package:tringconnect/widgets/StatefulButton.dart';
+import 'package:tringconnect/widgets/custom_icon_button.dart';
 
 class CommentButton extends StatefulWidget{
   final int commentCount;
