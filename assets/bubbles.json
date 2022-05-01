@@ -1,0 +1,72 @@
+[
+    {
+      "id":1,
+      "label":"Management",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=1",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":2,
+      "label":"HR Team",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=2",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":3,
+      "label":"Red Team",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=3",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":4,
+      "label":"Techzz",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=4",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":5,
+      "label":"Everest",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=5",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":6,
+      "label":"SRMG",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=6",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":7,
+      "label":"Gadgets",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=7",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":8,
+      "label":"Admin",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=8",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":9,
+      "label":"Updates",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=9",
+      "createdOn":"2017-01-01"
+    },
+    {
+      "id":10,
+      "label":"Mobile dev",
+      "isOnline": true,
+      "imageUrl": "https://picsum.photos/200?random=10",
+      "createdOn":"2017-01-01"
+    }
+]

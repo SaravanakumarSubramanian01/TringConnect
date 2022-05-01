@@ -1,5 +1,6 @@
 
 import 'dart:convert';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:tringconnect/widgets/DashboardHeader.dart';
 import 'package:tringconnect/widgets/FeedItem.dart';
@@ -13,27 +14,42 @@ class Dashboard extends StatefulWidget{
   @override
   State<Dashboard> createState() => DashboardState();
 }
-Future<List> getData(context) async {
-  final assetBundle = DefaultAssetBundle.of(context);
-  final data = await assetBundle.loadString('assets/data.json');
-  final body =  await json.decode(data);
-  return body.toList();
-}
+
 class DashboardState extends State<Dashboard>{
+  late DatabaseReference feedRef;
+
+  Future<List<dynamic>> getApiData() async{
+    List<dynamic> feeds = [];
+    feedRef = FirebaseDatabase.instance.ref();
+    final snapshot = await feedRef.child('feeds').get();
+    for (DataSnapshot feedSnapshot in snapshot.children) {
+      feeds.add(feedSnapshot.value);
+    }
+    return feeds.toList();
+  }
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return  Column(
       children: [
         const DashboardHeader(),
         FutureBuilder(
-          future: getData(context),
-          builder: (context, AsyncSnapshot<dynamic> snapshot) {
+          future: getApiData(),
+          builder: (context, AsyncSnapshot snapshot) {
             if (snapshot.hasError) {
               return const Text('No feeds found.');
             }
             else if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Text('Loading ...');
+              return const Center(
+                child: Text('Loading ...'),
+              );
             }
+            //return Container();
             return  Expanded(
                 flex: 1,
                 child: ListView.builder(

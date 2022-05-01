@@ -42,7 +42,7 @@ class InteractiveBanner extends StatelessWidget{
                 ),
                 const SizedBox(
                   width: 120,
-                  child: CustomButton(label: 'Know More', outlined: true,),
+                  child: CustomButton(activeLabel: 'Know More', inActiveLabel: 'Know More',outlined: true,),
                 )
 
 

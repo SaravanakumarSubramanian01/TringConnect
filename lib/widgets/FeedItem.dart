@@ -29,8 +29,8 @@ class FeedItem extends StatelessWidget{
               },
               child: FeedBody(
                 postDescription: data["post"],
-                tags: data["tags"],
-                mediaData: data['media'],
+                tags: data.containsKey('tags')?data['tags']:[],
+                mediaData: data.containsKey('media')?data['media']:[],
                 feedType:data["type"],
               ),
             ),

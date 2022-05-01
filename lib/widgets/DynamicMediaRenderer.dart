@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tringconnect/utils/colors.dart';
 class DynamicMediaRenderer extends StatelessWidget {
   final List<dynamic> mediaData;
 
@@ -21,25 +22,22 @@ class DynamicMediaRenderer extends StatelessWidget {
   Row twoImageView(mediaData, context) {
     return Row(
       children: [
-        Padding(
-            padding: const EdgeInsets.all(2),
-          child: Flexible(
-              flex: 1,
-              child: Image(
-                  width: MediaQuery.of(context).size.width * .5,
-                  height: 230,
-                  image: NetworkImage(mediaData[0]['mediaUrl']),
-                  fit: BoxFit.cover)),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(2),
-        child: Flexible(
+         Flexible(
             flex: 1,
             child: Image(
-                width: MediaQuery.of(context).size.width * .5,
-                height: 230,
-                image: NetworkImage(mediaData[1]['mediaUrl']),
-                fit: BoxFit.cover)),)
+              width: MediaQuery.of(context).size.width * .5,
+              height: 230,
+              image: NetworkImage(mediaData[0]['mediaUrl']),
+              fit: BoxFit.cover),
+        ),
+        Flexible(
+          flex: 1,
+          child: Image(
+            width: MediaQuery.of(context).size.width * .5,
+            height: 230,
+            image: NetworkImage(mediaData[1]['mediaUrl']),
+            fit: BoxFit.cover),
+        )
 
       ],
     );
@@ -50,46 +48,51 @@ class DynamicMediaRenderer extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Padding(
-            padding: const EdgeInsets.all(2),
-            child: Flexible(
-                flex: 1,
-                fit: FlexFit.loose,
+        Flexible(
+          flex: 1,
+          fit: FlexFit.loose,
 
-                child: Image(
+          child:Container(
+              margin: const EdgeInsets.only(right: 2),
+              child:Image(
                 width: MediaQuery.of(context).size.width * .62,
                 height: 230,
                 image: NetworkImage(mediaData[0]['mediaUrl']),
-                fit: BoxFit.cover))
+                fit: BoxFit.cover)
+          )
         ),
         Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Padding(
-              padding: const EdgeInsets.all(2),
-                child: Flexible(
+            Flexible(
                   flex: 1,
                   fit: FlexFit.loose,
-                  child: Image(
-                    width: MediaQuery.of(context).size.width * .35,
-                    height: 115,
-                    image: NetworkImage(mediaData[1]['mediaUrl']),
-                    fit: BoxFit.cover)
-                ),
+                  child: Container(
+                    margin: const EdgeInsets.only(bottom: 2),
+                    padding: const EdgeInsets.only(top:4,left: 2,),
+                    child:Image(
+                      width: MediaQuery.of(context).size.width * .35,
+                      height: 115,
+                      image: NetworkImage(mediaData[1]['mediaUrl']),
+                      fit: BoxFit.cover
+                    )
+                  )
             ),
-            Padding(
-                padding: const EdgeInsets.all(2),
-                child: Flexible(
+            Flexible(
                     flex: 1,
                     fit: FlexFit.loose,
 
-                  child: Image(
-                    width: MediaQuery.of(context).size.width * .35,
-                    height: 115,
-                    image: NetworkImage(mediaData[2]['mediaUrl']),
-                    fit: BoxFit.cover)
+                  child:Container(
+                      margin: const EdgeInsets.only(top: 2),
+                      padding: const EdgeInsets.only(bottom:4,left: 2,),
+                    child:Image(
+                      width: MediaQuery.of(context).size.width * .35,
+                      height: 115,
+                      image: NetworkImage(mediaData[2]['mediaUrl']),
+                      fit: BoxFit.cover)
                 )
             )
+
           ],
         )
       ],
@@ -101,41 +104,43 @@ class DynamicMediaRenderer extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Padding(
-            padding: const EdgeInsets.all(2),
-          child: Flexible(
+        Flexible(
             flex: 1,
             fit: FlexFit.loose,
+            child:Container(
+              margin: const EdgeInsets.only(right: 2),
+              child: Image(
+                  width: MediaQuery.of(context).size.width * .60,
+                  height: 230,
+                  image: NetworkImage(mediaData[0]['mediaUrl']),
+                  fit: BoxFit.cover),
+            ),
 
-            child: Image(
-              width: MediaQuery.of(context).size.width * .60,
-              height: 230,
-              image: NetworkImage(mediaData[0]['mediaUrl']),
-              fit: BoxFit.cover),
-          )
         ),
         Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Padding(
-              padding: const EdgeInsets.all(2),
-              child: Flexible(
+            Flexible(
                   flex: 1,
                   fit: FlexFit.loose,
-                  child: Image(
+                  child: Container(
+                      margin: const EdgeInsets.only(bottom: 2),
+                      padding: const EdgeInsets.only(top:4,left: 2,),
+                      child: Image(
                       width: MediaQuery.of(context).size.width * .35,
                       height: 115,
                       image: NetworkImage(mediaData[1]['mediaUrl']),
-                      fit: BoxFit.cover)),
+                      fit: BoxFit.cover),
+                  )
             ),
-            Padding(
-            padding: const EdgeInsets.all(2),
-            child: Flexible(
+            Flexible(
                 flex: 1,
                 fit: FlexFit.loose,
-                child: SizedBox(
+                child: Container(
                     width: MediaQuery.of(context).size.width * .35,
                     height: 115,
+                    margin: const EdgeInsets.only(top: 2),
+                    padding: const EdgeInsets.only(bottom:4,left: 2,),
                     child: Stack(
                       alignment: Alignment.center,
                       children: [
@@ -147,11 +152,15 @@ class DynamicMediaRenderer extends StatelessWidget {
                         Positioned(
                           child: Text(
                             "+"+(mediaData.length - 2).toString(),
-                            style: const TextStyle(fontSize: 28),
+                            style: const TextStyle(fontSize: 28,
+                              fontFamily: 'Poppins',
+                              fontWeight: FontWeight.bold,
+                              color: CustomColor.grey,),
                           ),
                         )
                       ],
-                    ))),
+                    )
+                ),
             )
           ],
         )

@@ -43,6 +43,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '711979024554',
     projectId: 'tringconnect-2022',
     authDomain: 'tringconnect-2022.firebaseapp.com',
+    databaseURL: 'https://tringconnect-2022-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'tringconnect-2022.appspot.com',
     measurementId: 'G-EKV90D678K',
   );
@@ -52,6 +53,7 @@ class DefaultFirebaseOptions {
     appId: '1:711979024554:android:4b7f117c6df9c3c65990d3',
     messagingSenderId: '711979024554',
     projectId: 'tringconnect-2022',
+    databaseURL: 'https://tringconnect-2022-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'tringconnect-2022.appspot.com',
   );
 
@@ -60,6 +62,7 @@ class DefaultFirebaseOptions {
     appId: '1:711979024554:ios:0ed602094f61cfdb5990d3',
     messagingSenderId: '711979024554',
     projectId: 'tringconnect-2022',
+    databaseURL: 'https://tringconnect-2022-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'tringconnect-2022.appspot.com',
     iosClientId: '711979024554-je41vmllfgja9t5qkc278psudoltv1te.apps.googleusercontent.com',
     iosBundleId: 'com.tringapps.tringconnect.tringconnect',

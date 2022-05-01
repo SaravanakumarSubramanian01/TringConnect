@@ -4,8 +4,10 @@ import 'package:tringconnect/utils/colors.dart';
 class StoryBubble extends StatefulWidget {
   final String imageUrl;
   final String label;
+  final bool isOnline;
 
-  const StoryBubble({Key? key, required this.imageUrl, required this.label})
+  const StoryBubble({Key? key, required this.imageUrl,
+    required this.label, required this.isOnline})
       : super(key: key);
 
   @override
@@ -57,7 +59,7 @@ class StoryBubbleState extends State<StoryBubble>{
                       height: 12,
                       decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.green,
+                          color: widget.isOnline?CustomColor.primaryGreen:CustomColor.grey,
                           border: Border.all(
                             width: 1,
                             color: CustomColor.grey,

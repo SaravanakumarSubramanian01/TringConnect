@@ -82,7 +82,7 @@ Widget course(Map data, context){
           padding: const EdgeInsets.symmetric(horizontal: 10),
           margin: const EdgeInsets.only(top: 4),
           width: 160,
-            child: const CustomButton(label: 'Register Now', outlined: false,)
+            child: const CustomButton(activeLabel: 'Registered', inActiveLabel:'Register Now',outlined: false,)
         )
 
 
