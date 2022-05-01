@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/widgets/CommentButton.dart';
+import 'package:tringconnect/widgets/CommentsList.dart';
 import 'package:tringconnect/widgets/FooterComment.dart';
 import 'package:tringconnect/widgets/LikeButton.dart';
+
+import 'CommentHeader.dart';
 
 class FeedFooter extends StatefulWidget {
   final String createdOn;
@@ -19,6 +22,7 @@ class FeedFooter extends StatefulWidget {
 class FeedFooterState extends State<FeedFooter>{
   bool showCommentWidget = false;
   int commentsCount = 0;
+  List<String> comments = [];
 
   @override
   void initState() {
@@ -51,9 +55,24 @@ class FeedFooterState extends State<FeedFooter>{
                       ),
                     ]
                 ),
-                padding: const EdgeInsets.only(left: 24,right: 10),
+                padding: const EdgeInsets.only(left: 24,right: 24),
               ),
               const Divider(height: 1,color: CustomColor.divider,),
+              Builder(builder: (context) {
+                if(showCommentWidget || comments.isNotEmpty) {
+                  return const CommentHeader();
+                }
+                else {
+                  return Container();
+                }
+              }),
+              Builder(builder: (context){
+                if(comments.isNotEmpty){
+                  return CommentsList(comments: comments);
+                }else{
+                  return Container();
+                }
+              }),
               Builder(builder: (context) {
                 if(showCommentWidget) {
                   return FooterComment(callback: onCommentSubmitted,);
@@ -73,10 +92,13 @@ class FeedFooterState extends State<FeedFooter>{
       showCommentWidget = !state;
     });
   }
-  void onCommentSubmitted(bool state){
+  void onCommentSubmitted(bool state,String comment){
     setState(() {
       if(commentsCount > 0){
         commentsCount += 1;
+      }
+      if(comment.isNotEmpty){
+        comments.add(comment);
       }
       showCommentWidget = !state;
     });

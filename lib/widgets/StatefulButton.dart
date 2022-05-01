@@ -34,7 +34,6 @@ class StatefulButtonState extends State<StatefulButton>{
 
   @override
   Widget build(BuildContext context) {
-    debugPrint(widget.resetState.toString());
     if(!isActive){
       return Padding(
         padding: const EdgeInsets.all(10),

@@ -5,7 +5,7 @@ import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/utils/images.dart';
 
 class CommentView extends StatefulWidget{
-  final void Function(bool state)? callback;
+  final void Function(bool state,String comment)? callback;
   const CommentView({Key? key, this.callback}) : super(key: key);
 
   @override
@@ -37,8 +37,9 @@ class CommentViewState extends State<CommentView>{
               child: Focus(
                 onFocusChange: (hasFocus) {
                   if(!hasFocus){
+                    widget.callback!(true,ctrl.text);
                     ctrl.text = "";
-                    widget.callback!(true);
+
                   }
                 },
                   child: TextField(
@@ -52,8 +53,8 @@ class CommentViewState extends State<CommentView>{
                       suffixIcon: IconButton(
                         icon:SvgPicture.asset(Images.iconSendGrey,width: 24,height: 24,fit: BoxFit.contain,),
                         onPressed: () {
+                          widget.callback!(true, ctrl.text);
                           ctrl.text = "";
-                          widget.callback!(true);
                           },
                       ),
                       fillColor: CustomColor.bgTextInput,

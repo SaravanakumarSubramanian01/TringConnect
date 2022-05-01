@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A75E9839-CF69-43A2-B42D-7934C20297ED</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Tringconnect_home_on_Action" transform="translate(-350.000000, -1052.000000)">
+            <g id="post_2" transform="translate(-0.000000, 863.000000)">
+                <g id="ic_arrow" transform="translate(350.000000, 189.000000)">
+                    <rect id="dummy" x="0" y="0" width="16" height="16"></rect>
+                    <polyline id="Path" stroke="#5BBC2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.000000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-8.000000, -8.000000) " points="12 6 10.3574251 7.64257492 8 10 4 6"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -26,5 +26,8 @@ abstract class Images {
   static const commentGrey = 'assets/images/ic_comment_grey.svg';
   static const commentBlack = 'assets/images/ic_comment_black.svg';
   static const iconSendGrey = 'assets/images/ic_send_grey.svg';
+  static const arrowUp = 'assets/images/ic_arrow_up.svg';
+  static const arrowRight = 'assets/images/ic_arrow_right.svg';
+  static const bannerAWS = 'assets/images/banner_aws.png';
 }
 

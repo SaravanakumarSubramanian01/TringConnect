@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:tringconnect/widgets/DashboardHeader.dart';
 import 'package:tringconnect/widgets/FeedItem.dart';
 
+import '../widgets/CourseFeedItem.dart';
+
 
 class Dashboard extends StatefulWidget{
   const Dashboard({Key? key}) : super(key: key);
@@ -15,7 +17,7 @@ Future<List> getData(context) async {
   final assetBundle = DefaultAssetBundle.of(context);
   final data = await assetBundle.loadString('assets/data.json');
   final body =  await json.decode(data);
-  return body;
+  return body.toList();
 }
 class DashboardState extends State<Dashboard>{
   @override
@@ -25,8 +27,7 @@ class DashboardState extends State<Dashboard>{
         const DashboardHeader(),
         FutureBuilder(
           future: getData(context),
-          builder: (context, snapshot) {
-            debugPrint(snapshot.toString());
+          builder: (context, AsyncSnapshot<dynamic> snapshot) {
             if (snapshot.hasError) {
               return const Text('No feeds found.');
             }
@@ -36,9 +37,15 @@ class DashboardState extends State<Dashboard>{
             return  Expanded(
                 flex: 1,
                 child: ListView.builder(
-                  itemCount: 5,
+                  scrollDirection: Axis.vertical,
+                  itemCount: snapshot.data.length,
                     itemBuilder: (context, index) {
-                      return const FeedItem();
+                      if(snapshot.data[index]['type'] != 'courses_feed'){
+                        return FeedItem(data: snapshot.data[index],);
+                      }else{
+                        return CourseFeedItem(feedData: snapshot.data[index],);
+                      }
+
                     })
             );
           }

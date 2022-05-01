@@ -9,6 +9,7 @@ import 'package:tringconnect/controller/Dashboard.dart';
 import 'package:tringconnect/controller/FolderView.dart';
 import 'package:tringconnect/utils/colors.dart';
 import 'package:tringconnect/utils/images.dart';
+import 'package:tringconnect/widgets/NotificationButton.dart';
 import 'package:tringconnect/widgets/StatefulButton.dart';
 
 import '../utils/Service.dart';
@@ -66,11 +67,7 @@ class HomeScreenState extends State<HomeScreen> {
           ),
         ),
         actions: const [
-          StatefulButton(
-            activeIcon: Images.notificationGreen,
-            inActiveIcon: Images.notificationBlack,
-            resetState: false,
-          ),
+         NotificationButton(hasUnReadNotification: true),
           StatefulButton(
             activeIcon: Images.searchGreen,
             inActiveIcon: Images.searchBlack,
@@ -111,7 +108,7 @@ class HomeScreenState extends State<HomeScreen> {
 BottomNavigationBarItem bottomTabItem(activeIcon, icon) {
   return BottomNavigationBarItem(
     icon: SvgPicture.asset(icon),
-    label: "test",
+    label: "",
     activeIcon: SvgPicture.asset(activeIcon),
   );
 }

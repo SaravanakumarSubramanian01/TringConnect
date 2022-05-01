@@ -4,7 +4,7 @@ import 'package:tringconnect/widgets/CommentHeader.dart';
 import 'package:tringconnect/widgets/CommentView.dart';
 
 class FooterComment extends StatelessWidget{
-  final void Function(bool state) callback;
+  final void Function(bool state,String comment) callback;
   const FooterComment({Key? key,required this.callback}) : super(key: key);
 
   @override
@@ -12,16 +12,11 @@ class FooterComment extends StatelessWidget{
     return Container(
       color: CustomColor.white,
       padding: const EdgeInsets.only(left: 12,right: 10),
-      child: Column(
-        children:  [
-          const CommentHeader(),
-          CommentView(callback: onCommentSubmit,)
-        ],
-      ),
+      child: CommentView(callback: onCommentSubmit,)
     );
   }
-  void onCommentSubmit(bool state){
-    callback(state);
+  void onCommentSubmit(bool state,String comment){
+    callback(state,comment);
   }
 }
 
